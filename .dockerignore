@@ -1,0 +1,10 @@
+node_modules
+.git
+.DS_Store
+*.log
+.claude
+data/uae.db
+data/uae.db-wal
+data/uae.db-shm
+dist
+.cache

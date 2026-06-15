@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "version": "2026.06",
+    "updated": "2026-06-11",
+    "note_en": "Macro statistics are compiled from public sources and labelled with origin and vintage. Figures marked '≈' or 'est.' are approximations — see source.",
+    "note_ar": "الإحصاءات الكلية مجمعة من مصادر عامة ومُعلَّمة بالمصدر والتاريخ. الأرقام الموسومة بـ '≈' أو 'تقديري' تقريبية — راجع المصدر."
+  },
+  "macro": [
+    {
+      "key": "freezones_total",
+      "value": "40+",
+      "label_en": "Free zones across the UAE",
+      "label_ar": "منطقة حرة في الإمارات",
+      "source": "u.ae — UAE Government portal",
+      "year": 2025
+    },
+    {
+      "key": "population",
+      "value": "≈ 11M",
+      "label_en": "UAE population",
+      "label_ar": "عدد سكان الإمارات",
+      "source": "FCSC / UN estimates",
+      "year": 2025
+    },
+    {
+      "key": "gdp",
+      "value": "≈ USD 540B",
+      "label_en": "Nominal GDP",
+      "label_ar": "الناتج المحلي الإجمالي الاسمي",
+      "source": "IMF estimate",
+      "year": 2024
+    },
+    {
+      "key": "non_oil_share",
+      "value": "≈ 75%",
+      "label_en": "Non-oil share of GDP",
+      "label_ar": "حصة القطاعات غير النفطية من الناتج",
+      "source": "UAE Ministry of Economy",
+      "year": 2024
+    },
+    {
+      "key": "fdi_inflow",
+      "value": "USD 30.7B",
+      "label_en": "FDI inflows (2023)",
+      "label_ar": "تدفقات الاستثمار الأجنبي المباشر (2023)",
+      "source": "UNCTAD World Investment Report 2024",
+      "year": 2023
+    },
+    {
+      "key": "sme_share_firms",
+      "value": "≈ 94%",
+      "label_en": "Of UAE companies are SMEs",
+      "label_ar": "من شركات الإمارات منشآت صغيرة ومتوسطة",
+      "source": "UAE Ministry of Economy",
+      "year": 2024
+    },
+    {
+      "key": "gem_rank",
+      "value": "#1",
+      "label_en": "Global Entrepreneurship Monitor NECI rank, four years running",
+      "label_ar": "المرتبة الأولى عالميًا في مؤشر GEM لبيئة ريادة الأعمال لأربع سنوات متتالية",
+      "source": "GEM NECI 2022–2025",
+      "year": 2025
+    },
+    {
+      "key": "corporate_tax",
+      "value": "9% / 0%",
+      "label_en": "Corporate tax (0% on qualifying free zone income)",
+      "label_ar": "ضريبة الشركات (0% على دخل المنطقة الحرة المؤهل)",
+      "source": "Federal Tax Authority — tax.gov.ae",
+      "year": 2025
+    },
+    {
+      "key": "vat",
+      "value": "5%",
+      "label_en": "Value-added tax",
+      "label_ar": "ضريبة القيمة المضافة",
+      "source": "Federal Tax Authority",
+      "year": 2025
+    },
+    {
+      "key": "ownership",
+      "value": "100%",
+      "label_en": "Foreign ownership (free zones since inception; most mainland activities since 2021)",
+      "label_ar": "تملك أجنبي كامل (المناطق الحرة منذ نشأتها؛ معظم أنشطة البر الرئيسي منذ 2021)",
+      "source": "u.ae",
+      "year": 2025
+    },
+    {
+      "key": "cepas",
+      "value": "20+",
+      "label_en": "Comprehensive Economic Partnership Agreements concluded",
+      "label_ar": "اتفاقية شراكة اقتصادية شاملة مُبرمة",
+      "source": "UAE Ministry of Economy",
+      "year": 2025
+    },
+    {
+      "key": "dataset_cost_range",
+      "value": "AED 5k–45k",
+      "label_en": "Indicative first-year cost range across tracked zones",
+      "label_ar": "نطاق التكلفة التقديرية للسنة الأولى عبر المناطق المتتبَّعة",
+      "source": "Tasees dataset v2026.06",
+      "year": 2026
+    }
+  ]
+}

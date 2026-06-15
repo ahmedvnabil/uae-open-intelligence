@@ -1,0 +1,132 @@
+{
+  "generated_on": "2026-06-11",
+  "status": "prototype",
+  "kpis": [
+    {
+      "id": "digital_economy_target",
+      "label_ar": "مستهدف مساهمة الاقتصاد الرقمي",
+      "value": "19.4%",
+      "tone": "blue",
+      "delta": "+9.7 نقطة عن خط 2022",
+      "source": "استراتيجية الاقتصاد الرقمي في الإمارات"
+    },
+    {
+      "id": "ad_ai_native_investment",
+      "label_ar": "استثمار أبوظبي الرقمي",
+      "value": "13B AED",
+      "tone": "green",
+      "delta": "2025-2027",
+      "source": "استراتيجية أبوظبي الرقمية"
+    },
+    {
+      "id": "prototype_source_gap",
+      "label_ar": "مؤشرات تحتاج تحقق",
+      "value": "7",
+      "tone": "yellow",
+      "delta": "بيانات نموذجية",
+      "source": "حزمة المرصد"
+    },
+    {
+      "id": "open_risk_items",
+      "label_ar": "مخاطر اعتماد يجب مراقبتها",
+      "value": "5",
+      "tone": "red",
+      "delta": "خصوصية، أمن، تكلفة، مهارات، قياس",
+      "source": "تقرير الأثر العام"
+    }
+  ],
+  "adoption_by_function": [
+    {
+      "function_ar": "التسويق والمبيعات",
+      "share": 34,
+      "status": "prototype"
+    },
+    {
+      "function_ar": "العمليات",
+      "share": 28,
+      "status": "prototype"
+    },
+    {
+      "function_ar": "خدمة العملاء",
+      "share": 19,
+      "status": "prototype"
+    },
+    {
+      "function_ar": "المالية",
+      "share": 11,
+      "status": "prototype"
+    },
+    {
+      "function_ar": "الموارد البشرية",
+      "share": 8,
+      "status": "prototype"
+    }
+  ],
+  "skills_demand": [
+    {
+      "skill_ar": "تعلم الآلة",
+      "share": 28,
+      "level": "متقدم"
+    },
+    {
+      "skill_ar": "تحليل البيانات",
+      "share": 19,
+      "level": "متوسط"
+    },
+    {
+      "skill_ar": "هندسة الأوامر",
+      "share": 17,
+      "level": "مبتدئ"
+    },
+    {
+      "skill_ar": "معالجة اللغة الطبيعية",
+      "share": 14,
+      "level": "متقدم"
+    },
+    {
+      "skill_ar": "الرؤية الحاسوبية",
+      "share": 12,
+      "level": "متقدم"
+    },
+    {
+      "skill_ar": "الذكاء الاصطناعي المسؤول",
+      "share": 10,
+      "level": "متوسط"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "digital_economy_gdp_share_target",
+      "label_en": "Digital economy GDP contribution target",
+      "label_ar": "مستهدف مساهمة الاقتصاد الرقمي في الناتج المحلي",
+      "value": "19.4%",
+      "baseline": "9.7% in 2022",
+      "target_year": 2031,
+      "source": "UAE Government Digital Economy Strategy"
+    },
+    {
+      "id": "abu_dhabi_ai_native_investment",
+      "label_en": "Abu Dhabi AI-native government investment",
+      "label_ar": "استثمار أبوظبي في الحكومة المدعومة بالذكاء الاصطناعي",
+      "value": "AED 13 billion",
+      "period": "2025-2027",
+      "source": "Department of Government Enablement Abu Dhabi"
+    },
+    {
+      "id": "q1_2025_non_oil_gdp_growth",
+      "label_en": "UAE non-oil GDP growth",
+      "label_ar": "نمو الناتج المحلي غير النفطي في الإمارات",
+      "value": "5.3%",
+      "period": "Q1 2025",
+      "source": "UAE Ministry of Economy"
+    },
+    {
+      "id": "pwc_ai_uae_2030",
+      "label_en": "Potential AI contribution to UAE GDP",
+      "label_ar": "المساهمة المحتملة للذكاء الاصطناعي في الناتج المحلي للإمارات",
+      "value": "US$96 billion",
+      "period": "2030 forecast",
+      "source": "PwC Middle East AI impact report"
+    }
+  ]
+}

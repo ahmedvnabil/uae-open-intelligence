@@ -1,0 +1,3358 @@
+{
+  "nodes": [
+    {
+      "id": "em:Dubai",
+      "label": "دبي",
+      "type": "emirate",
+      "weight": 3
+    },
+    {
+      "id": "em:Abu Dhabi",
+      "label": "أبوظبي",
+      "type": "emirate",
+      "weight": 3
+    },
+    {
+      "id": "em:Sharjah",
+      "label": "الشارقة",
+      "type": "emirate",
+      "weight": 3
+    },
+    {
+      "id": "em:Ras Al Khaimah",
+      "label": "رأس الخيمة",
+      "type": "emirate",
+      "weight": 3
+    },
+    {
+      "id": "em:Ajman",
+      "label": "عجمان",
+      "type": "emirate",
+      "weight": 3
+    },
+    {
+      "id": "em:Fujairah",
+      "label": "الفجيرة",
+      "type": "emirate",
+      "weight": 3
+    },
+    {
+      "id": "em:Umm Al Quwain",
+      "label": "أم القيوين",
+      "type": "emirate",
+      "weight": 3
+    },
+    {
+      "id": "sec:energy",
+      "label": "الطاقة",
+      "type": "sector",
+      "weight": 2
+    },
+    {
+      "id": "sec:mobility",
+      "label": "النقل والمواصلات",
+      "type": "sector",
+      "weight": 2
+    },
+    {
+      "id": "sec:environment",
+      "label": "البيئة والاستدامة",
+      "type": "sector",
+      "weight": 2
+    },
+    {
+      "id": "sec:water",
+      "label": "المياه",
+      "type": "sector",
+      "weight": 2
+    },
+    {
+      "id": "sec:health",
+      "label": "الصحة",
+      "type": "sector",
+      "weight": 2
+    },
+    {
+      "id": "sec:finance",
+      "label": "المالية",
+      "type": "sector",
+      "weight": 2
+    },
+    {
+      "id": "sec:realestate",
+      "label": "العقارات والإسكان",
+      "type": "sector",
+      "weight": 2
+    },
+    {
+      "id": "sec:education",
+      "label": "التعليم والمهارات",
+      "type": "sector",
+      "weight": 2
+    },
+    {
+      "id": "sec:cross",
+      "label": "متعدد القطاعات",
+      "type": "sector",
+      "weight": 2
+    },
+    {
+      "id": "sec:retail",
+      "label": "التجارة والتجزئة",
+      "type": "sector",
+      "weight": 2
+    },
+    {
+      "id": "sec:tourism",
+      "label": "السياحة",
+      "type": "sector",
+      "weight": 2
+    },
+    {
+      "id": "fz:dmcc",
+      "label": "مركز دبي للسلع المتعددة",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Dubai",
+        "cost_band": "high"
+      }
+    },
+    {
+      "id": "fzsec:commodities",
+      "label": "commodities",
+      "type": "fzsector",
+      "weight": 1
+    },
+    {
+      "id": "fzsec:trading",
+      "label": "trading",
+      "type": "fzsector",
+      "weight": 11
+    },
+    {
+      "id": "fzsec:crypto",
+      "label": "crypto",
+      "type": "fzsector",
+      "weight": 3
+    },
+    {
+      "id": "fzsec:general",
+      "label": "general",
+      "type": "fzsector",
+      "weight": 10
+    },
+    {
+      "id": "fz:difc",
+      "label": "مركز دبي المالي العالمي",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Dubai",
+        "cost_band": "high"
+      }
+    },
+    {
+      "id": "fzsec:finance",
+      "label": "finance",
+      "type": "fzsector",
+      "weight": 2
+    },
+    {
+      "id": "fzsec:fintech",
+      "label": "fintech",
+      "type": "fzsector",
+      "weight": 2
+    },
+    {
+      "id": "fzsec:legal",
+      "label": "legal",
+      "type": "fzsector",
+      "weight": 1
+    },
+    {
+      "id": "fz:jafza",
+      "label": "المنطقة الحرة لجبل علي (جافزا)",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Dubai",
+        "cost_band": "mid"
+      }
+    },
+    {
+      "id": "fzsec:logistics",
+      "label": "logistics",
+      "type": "fzsector",
+      "weight": 6
+    },
+    {
+      "id": "fzsec:industry",
+      "label": "industry",
+      "type": "fzsector",
+      "weight": 6
+    },
+    {
+      "id": "fz:dafz",
+      "label": "المنطقة الحرة بمطار دبي",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Dubai",
+        "cost_band": "high"
+      }
+    },
+    {
+      "id": "fzsec:aviation",
+      "label": "aviation",
+      "type": "fzsector",
+      "weight": 4
+    },
+    {
+      "id": "fzsec:tech",
+      "label": "tech",
+      "type": "fzsector",
+      "weight": 5
+    },
+    {
+      "id": "fz:dubai-south",
+      "label": "المنطقة الحرة دبي الجنوب",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Dubai",
+        "cost_band": "mid"
+      }
+    },
+    {
+      "id": "fzsec:ecommerce",
+      "label": "ecommerce",
+      "type": "fzsector",
+      "weight": 4
+    },
+    {
+      "id": "fz:dic",
+      "label": "مدينة دبي للإنترنت",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Dubai",
+        "cost_band": "high"
+      }
+    },
+    {
+      "id": "fzsec:software",
+      "label": "software",
+      "type": "fzsector",
+      "weight": 1
+    },
+    {
+      "id": "fz:dmc",
+      "label": "مدينة دبي للإعلام",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Dubai",
+        "cost_band": "high"
+      }
+    },
+    {
+      "id": "fzsec:media",
+      "label": "media",
+      "type": "fzsector",
+      "weight": 7
+    },
+    {
+      "id": "fzsec:creative",
+      "label": "creative",
+      "type": "fzsector",
+      "weight": 4
+    },
+    {
+      "id": "fz:dkp",
+      "label": "مجمع دبي للمعرفة",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Dubai",
+        "cost_band": "high"
+      }
+    },
+    {
+      "id": "fzsec:education",
+      "label": "education",
+      "type": "fzsector",
+      "weight": 1
+    },
+    {
+      "id": "fzsec:hr",
+      "label": "hr",
+      "type": "fzsector",
+      "weight": 1
+    },
+    {
+      "id": "fzsec:consulting",
+      "label": "consulting",
+      "type": "fzsector",
+      "weight": 5
+    },
+    {
+      "id": "fz:dsp",
+      "label": "مجمع دبي للعلوم",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Dubai",
+        "cost_band": "high"
+      }
+    },
+    {
+      "id": "fzsec:science",
+      "label": "science",
+      "type": "fzsector",
+      "weight": 1
+    },
+    {
+      "id": "fzsec:healthcare",
+      "label": "healthcare",
+      "type": "fzsector",
+      "weight": 2
+    },
+    {
+      "id": "fzsec:research",
+      "label": "research",
+      "type": "fzsector",
+      "weight": 2
+    },
+    {
+      "id": "fz:dpc",
+      "label": "مدينة دبي للإنتاج",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Dubai",
+        "cost_band": "mid"
+      }
+    },
+    {
+      "id": "fzsec:printing",
+      "label": "printing",
+      "type": "fzsector",
+      "weight": 1
+    },
+    {
+      "id": "fzsec:packaging",
+      "label": "packaging",
+      "type": "fzsector",
+      "weight": 1
+    },
+    {
+      "id": "fz:dsc",
+      "label": "مدينة دبي للاستوديوهات",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Dubai",
+        "cost_band": "mid"
+      }
+    },
+    {
+      "id": "fzsec:film",
+      "label": "film",
+      "type": "fzsector",
+      "weight": 2
+    },
+    {
+      "id": "fzsec:production",
+      "label": "production",
+      "type": "fzsector",
+      "weight": 1
+    },
+    {
+      "id": "fz:d3",
+      "label": "حي دبي للتصميم",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Dubai",
+        "cost_band": "high"
+      }
+    },
+    {
+      "id": "fzsec:design",
+      "label": "design",
+      "type": "fzsector",
+      "weight": 1
+    },
+    {
+      "id": "fzsec:fashion",
+      "label": "fashion",
+      "type": "fzsector",
+      "weight": 1
+    },
+    {
+      "id": "fz:dso",
+      "label": "واحة دبي للسيليكون",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Dubai",
+        "cost_band": "mid"
+      }
+    },
+    {
+      "id": "fzsec:hardware",
+      "label": "hardware",
+      "type": "fzsector",
+      "weight": 1
+    },
+    {
+      "id": "fzsec:electronics",
+      "label": "electronics",
+      "type": "fzsector",
+      "weight": 1
+    },
+    {
+      "id": "fz:meydan",
+      "label": "منطقة ميدان الحرة",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Dubai",
+        "cost_band": "mid"
+      }
+    },
+    {
+      "id": "fz:ifza",
+      "label": "سلطة المنطقة الحرة الدولية (إفزا)",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Dubai",
+        "cost_band": "mid"
+      }
+    },
+    {
+      "id": "fz:commercity",
+      "label": "دبي كوميرسيتي",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Dubai",
+        "cost_band": "high"
+      }
+    },
+    {
+      "id": "fz:dhcc",
+      "label": "مدينة دبي الطبية",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Dubai",
+        "cost_band": "high"
+      }
+    },
+    {
+      "id": "fzsec:wellness",
+      "label": "wellness",
+      "type": "fzsector",
+      "weight": 1
+    },
+    {
+      "id": "fz:dwtc",
+      "label": "المنطقة الحرة لمركز دبي التجاري العالمي",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Dubai",
+        "cost_band": "mid"
+      }
+    },
+    {
+      "id": "fzsec:events",
+      "label": "events",
+      "type": "fzsector",
+      "weight": 2
+    },
+    {
+      "id": "fz:expo-city",
+      "label": "المنطقة الحرة لمدينة إكسبو دبي",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Dubai",
+        "cost_band": "mid"
+      }
+    },
+    {
+      "id": "fzsec:sustainability",
+      "label": "sustainability",
+      "type": "fzsector",
+      "weight": 3
+    },
+    {
+      "id": "fz:adgm",
+      "label": "سوق أبوظبي العالمي",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Abu Dhabi",
+        "cost_band": "mid"
+      }
+    },
+    {
+      "id": "fz:kezad",
+      "label": "مدن ومناطق خليفة الاقتصادية – أبوظبي (كيزاد)",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Abu Dhabi",
+        "cost_band": "mid"
+      }
+    },
+    {
+      "id": "fzsec:manufacturing",
+      "label": "manufacturing",
+      "type": "fzsector",
+      "weight": 1
+    },
+    {
+      "id": "fz:masdar",
+      "label": "المنطقة الحرة بمدينة مصدر",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Abu Dhabi",
+        "cost_band": "mid"
+      }
+    },
+    {
+      "id": "fzsec:cleantech",
+      "label": "cleantech",
+      "type": "fzsector",
+      "weight": 1
+    },
+    {
+      "id": "fzsec:ai",
+      "label": "ai",
+      "type": "fzsector",
+      "weight": 1
+    },
+    {
+      "id": "fzsec:mobility",
+      "label": "mobility",
+      "type": "fzsector",
+      "weight": 1
+    },
+    {
+      "id": "fz:twofour54",
+      "label": "توفور54 أبوظبي",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Abu Dhabi",
+        "cost_band": "mid"
+      }
+    },
+    {
+      "id": "fzsec:gaming",
+      "label": "gaming",
+      "type": "fzsector",
+      "weight": 1
+    },
+    {
+      "id": "fz:adafz",
+      "label": "المنطقة الحرة لمطارات أبوظبي",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Abu Dhabi",
+        "cost_band": "mid"
+      }
+    },
+    {
+      "id": "fz:saif",
+      "label": "المنطقة الحرة لمطار الشارقة الدولي",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Sharjah",
+        "cost_band": "mid"
+      }
+    },
+    {
+      "id": "fz:hamriyah",
+      "label": "المنطقة الحرة بالحمرية",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Sharjah",
+        "cost_band": "mid"
+      }
+    },
+    {
+      "id": "fzsec:maritime",
+      "label": "maritime",
+      "type": "fzsector",
+      "weight": 2
+    },
+    {
+      "id": "fzsec:oil-gas",
+      "label": "oil-gas",
+      "type": "fzsector",
+      "weight": 1
+    },
+    {
+      "id": "fz:shams",
+      "label": "مدينة الشارقة للإعلام (شمس)",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Sharjah",
+        "cost_band": "low"
+      }
+    },
+    {
+      "id": "fz:srtip",
+      "label": "مجمع الشارقة للبحوث والتكنولوجيا والابتكار",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Sharjah",
+        "cost_band": "mid"
+      }
+    },
+    {
+      "id": "fzsec:deeptech",
+      "label": "deeptech",
+      "type": "fzsector",
+      "weight": 1
+    },
+    {
+      "id": "fz:spc",
+      "label": "مدينة الشارقة للنشر",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Sharjah",
+        "cost_band": "low"
+      }
+    },
+    {
+      "id": "fzsec:publishing",
+      "label": "publishing",
+      "type": "fzsector",
+      "weight": 1
+    },
+    {
+      "id": "fz:rakez",
+      "label": "منطقة رأس الخيمة الاقتصادية (راكز)",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Ras Al Khaimah",
+        "cost_band": "low"
+      }
+    },
+    {
+      "id": "fz:rak-icc",
+      "label": "مركز رأس الخيمة العالمي للشركات",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Ras Al Khaimah",
+        "cost_band": "low"
+      }
+    },
+    {
+      "id": "fzsec:offshore",
+      "label": "offshore",
+      "type": "fzsector",
+      "weight": 1
+    },
+    {
+      "id": "fzsec:holding",
+      "label": "holding",
+      "type": "fzsector",
+      "weight": 1
+    },
+    {
+      "id": "fz:afz",
+      "label": "منطقة عجمان الحرة",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Ajman",
+        "cost_band": "low"
+      }
+    },
+    {
+      "id": "fz:amc",
+      "label": "منطقة عجمان الحرة للإعلام",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Ajman",
+        "cost_band": "low"
+      }
+    },
+    {
+      "id": "fz:uaq-ftz",
+      "label": "المنطقة الحرة بأم القيوين",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Umm Al Quwain",
+        "cost_band": "low"
+      }
+    },
+    {
+      "id": "fz:fujairah-fz",
+      "label": "المنطقة الحرة بالفجيرة",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Fujairah",
+        "cost_band": "low"
+      }
+    },
+    {
+      "id": "fz:creative-city",
+      "label": "المدينة الإبداعية بالفجيرة",
+      "type": "freezone",
+      "weight": 1,
+      "meta": {
+        "emirate": "Fujairah",
+        "cost_band": "low"
+      }
+    },
+    {
+      "id": "pr:م-حس-ن-الشبكة-الذكية-لهيئة-كهرباء-ومياه-دبي-ديوا",
+      "label": "مُحسِّن الشبكة الذكية لهيئة كهرباء ومياه دبي (ديوا)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "energy"
+      }
+    },
+    {
+      "id": "pr:م-حس-ن-تدفق-الحركة-المرورية-لدبي-عبر-كاميرات-هيئة-الطرق-والم",
+      "label": "مُحسِّن تدفق الحركة المرورية لدبي عبر كاميرات هيئة الطرق والمواصلات",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 10,
+        "sector": "mobility"
+      }
+    },
+    {
+      "id": "pr:نظام-التحكم-الذكي-في-تبريد-المناطق-لمدينة-مصدر",
+      "label": "نظام التحكم الذكي في تبريد المناطق لمدينة مصدر",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "energy"
+      }
+    },
+    {
+      "id": "pr:م-قي-م-وم-ؤتم-ت-نظام-استدامة-للمباني-الخضراء-في-أبوظبي",
+      "label": "مُقيِّم ومُؤتمِت نظام 'استدامة' للمباني الخضراء في أبوظبي",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "environment"
+      }
+    },
+    {
+      "id": "pr:رادار-الطاقة-الشمسية-لأسطح-الفلل-السكنية-في-الإمارات",
+      "label": "رادار الطاقة الشمسية لأسطح الفلل السكنية في الإمارات",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "energy"
+      }
+    },
+    {
+      "id": "pr:مرصد-التأثير-البيئي-للمحلول-الملح-ي-لمحطات-تحلية-المياه",
+      "label": "مرصد التأثير البيئي للمحلول الملحّي لمحطات تحلية المياه",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "water"
+      }
+    },
+    {
+      "id": "pr:الموزع-الذكي-لشحن-السيارات-الكهربائية-في-المباني-متعددة-العا",
+      "label": "الموزع الذكي لشحن السيارات الكهربائية في المباني متعددة العائلات",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "mobility"
+      }
+    },
+    {
+      "id": "pr:منظومة-طائرات-الدرون-لزراعة-وتتبع-أشجار-القرم-في-الإمارات",
+      "label": "منظومة طائرات الدرون لزراعة وتتبع أشجار القرم في الإمارات",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 10,
+        "sector": "environment"
+      }
+    },
+    {
+      "id": "pr:نظام-فرز-النفايات-وتوجيه-الحاويات-الديناميكي-لأبوظبي",
+      "label": "نظام فرز النفايات وتوجيه الحاويات الديناميكي لأبوظبي",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "mobility"
+      }
+    },
+    {
+      "id": "pr:نظام-تخفيف-الجزر-الحرارية-الحضرية-في-دبي",
+      "label": "نظام تخفيف الجزر الحرارية الحضرية في دبي",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "energy"
+      }
+    },
+    {
+      "id": "pr:نظام-إدارة-طاقة-وتكييف-مواقف-الحافلات-الذكية-بالشارقة",
+      "label": "نظام إدارة طاقة وتكييف مواقف الحافلات الذكية بالشارقة",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "energy"
+      }
+    },
+    {
+      "id": "pr:محاكي-إعادة-تغذية-خزانات-المياه-الجوفية-في-الإمارات",
+      "label": "محاكي إعادة تغذية خزانات المياه الجوفية في الإمارات",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "energy"
+      }
+    },
+    {
+      "id": "pr:مخطط-كثافة-ركاب-مترو-دبي-الذكي",
+      "label": "مخطط كثافة ركاب مترو دبي الذكي",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "mobility"
+      }
+    },
+    {
+      "id": "pr:نظام-تدوير-المياه-الرمادية-المتوافق-مع-استدامة-للمدارس-الإما",
+      "label": "نظام تدوير المياه الرمادية المتوافق مع 'استدامة' للمدارس الإماراتية",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "water"
+      }
+    },
+    {
+      "id": "pr:شبكة-إضاءة-الشوارع-الذكية-المترابطة-لأبوظبي",
+      "label": "شبكة إضاءة الشوارع الذكية المترابطة لأبوظبي",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "energy"
+      }
+    },
+    {
+      "id": "pr:روبوت-رصد-الغبار-والتنظيف-التلقائي-للألواح-الشمسية-في-الإمار",
+      "label": "روبوت رصد الغبار والتنظيف التلقائي للألواح الشمسية في الإمارات",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 10,
+        "sector": "energy"
+      }
+    },
+    {
+      "id": "pr:مرصد-الضوضاء-وجودة-الهواء-لمواقع-البناء-في-دبي",
+      "label": "مرصد الضوضاء وجودة الهواء لمواقع البناء في دبي",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "environment"
+      }
+    },
+    {
+      "id": "pr:مخطط-قابلية-المشي-الذكي-للمناطق-التاريخية-بالشارقة",
+      "label": "مخطط قابلية المشي الذكي للمناطق التاريخية بالشارقة",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "mobility"
+      }
+    },
+    {
+      "id": "pr:م-قد-ر-الكربون-الأزرق-البحري-لدولة-الإمارات",
+      "label": "مُقدِّر الكربون الأزرق البحري لدولة الإمارات",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "environment"
+      }
+    },
+    {
+      "id": "pr:الرابط-الذكي-لإعادة-توجيه-وفائض-طعام-الإمارات",
+      "label": "الرابط الذكي لإعادة توجيه وفائض طعام الإمارات",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "environment"
+      }
+    },
+    {
+      "id": "pr:مطهر-العناوين-الجغرافية-الذكي-لشركات-التوصيل-uae-address-for",
+      "label": "مطهر العناوين الجغرافية الذكي لشركات التوصيل (UAE Address Formatter)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "mobility"
+      }
+    },
+    {
+      "id": "pr:بوابة-العقود-الرقمية-الموثقة-عقد-الإماراتي",
+      "label": "بوابة العقود الرقمية الموثقة (عقد الإماراتي)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "environment"
+      }
+    },
+    {
+      "id": "pr:النظام-الذكي-لحساب-الرسوم-الجمركية-الموحد",
+      "label": "النظام الذكي لحساب الرسوم الجمركية الموحد",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "mobility"
+      }
+    },
+    {
+      "id": "pr:حزمة-تطوير-برمجيات-الهوية-الرقمية-المفتوحة-uae-pass-easysdk",
+      "label": "حزمة تطوير برمجيات الهوية الرقمية المفتوحة (UAE PASS EasySDK)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "health"
+      }
+    },
+    {
+      "id": "pr:مستكشف-السجل-الاقتصادي-الوطني-المفتوح-ner-explorer",
+      "label": "مستكشف السجل الاقتصادي الوطني المفتوح (NER Explorer)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "finance"
+      }
+    },
+    {
+      "id": "pr:منصة-التحكيم-العقاري-الذكي-لفض-النزاعات",
+      "label": "منصة التحكيم العقاري الذكي لفض النزاعات",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "realestate"
+      }
+    },
+    {
+      "id": "pr:المحرك-اللوجستي-الذكي-لتخزين-الحاويات-smartport",
+      "label": "المحرك اللوجستي الذكي لتخزين الحاويات (SmartPort)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "mobility"
+      }
+    },
+    {
+      "id": "pr:المستشار-التشريعي-الإماراتي-uae-lawai",
+      "label": "المستشار التشريعي الإماراتي (UAE LawAI)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "education"
+      }
+    },
+    {
+      "id": "pr:منصة-الأوقاف-الرقمية-وقف-ذكي",
+      "label": "منصة الأوقاف الرقمية (وقف ذكي)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "finance"
+      }
+    },
+    {
+      "id": "pr:موصل-الضرائب-والفوترة-الإلكترونية-لبرمجيات-erp",
+      "label": "موصل الضرائب والفوترة الإلكترونية لبرمجيات ERP",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "finance"
+      }
+    },
+    {
+      "id": "pr:النظام-الرقمي-لشهادات-المنشأ-عبر-البلوكشين-traceorigin",
+      "label": "النظام الرقمي لشهادات المنشأ عبر البلوكشين (TraceOrigin)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "cross"
+      }
+    },
+    {
+      "id": "pr:مرصد-جودة-الخدمات-الرقمية-الحكومية-govsentiment",
+      "label": "مرصد جودة الخدمات الرقمية الحكومية (GovSentiment)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "health"
+      }
+    },
+    {
+      "id": "pr:حزمة-حوكمة-البيانات-والامتثال-لقانون-pdpl",
+      "label": "حزمة حوكمة البيانات والامتثال لقانون PDPL",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "retail"
+      }
+    },
+    {
+      "id": "pr:بوابة-الملكية-الفكرية-وبراءات-الاختراع-المفتوحة",
+      "label": "بوابة الملكية الفكرية وبراءات الاختراع المفتوحة",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "cross"
+      }
+    },
+    {
+      "id": "pr:منسق-النقل-اللوجستي-العابر-للحدود-borderlink",
+      "label": "منسق النقل اللوجستي العابر للحدود (BorderLink)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "mobility"
+      }
+    },
+    {
+      "id": "pr:مقيم-الأهلية-للإقامة-الذهبية-goldenvisaai",
+      "label": "مقيم الأهلية للإقامة الذهبية (GoldenVisaAI)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "education"
+      }
+    },
+    {
+      "id": "pr:منصة-صياغة-العقود-المتوافقة-مع-قانون-العمل-والشركات-الإمارات",
+      "label": "منصة صياغة العقود المتوافقة مع قانون العمل والشركات الإماراتي",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "cross"
+      }
+    },
+    {
+      "id": "pr:المنصة-اللوجستية-للمساعدات-الإنسانية-الإماراتية-humanityflow",
+      "label": "المنصة اللوجستية للمساعدات الإنسانية الإماراتية (HumanityFlow)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 10,
+        "sector": "mobility"
+      }
+    },
+    {
+      "id": "pr:نظام-أرشيف-الأحكام-القضائية-وتحليل-السوابق-الذكي",
+      "label": "نظام أرشيف الأحكام القضائية وتحليل السوابق الذكي",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "cross"
+      }
+    },
+    {
+      "id": "pr:المنصة-البلدية-المفتوحة-للتصاريح-smartpermits",
+      "label": "المنصة البلدية المفتوحة للتصاريح (SmartPermits)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "realestate"
+      }
+    },
+    {
+      "id": "pr:نظام-تحسين-التوصيل-وسلاسل-التوريد-المحلية-routeoptima",
+      "label": "نظام تحسين التوصيل وسلاسل التوريد المحلية (RouteOptima)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "mobility"
+      }
+    },
+    {
+      "id": "pr:حزمة-التكامل-المبسط-للهوية-الرقمية-uae-pass-easysdk",
+      "label": "حزمة التكامل المبسط للهوية الرقمية (UAE PASS EasySDK)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "health"
+      }
+    },
+    {
+      "id": "pr:م-دقق-الفواتير-الضريبية-لضريبة-القيمة-المضافة-uae-vat-invoic",
+      "label": "مُدقق الفواتير الضريبية لضريبة القيمة المضافة (UAE VAT Invoice Linter)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "health"
+      }
+    },
+    {
+      "id": "pr:سند-sanad",
+      "label": "سند (Sanad)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "mobility"
+      }
+    },
+    {
+      "id": "pr:معلمي-الذكي-muallimi-al-smart",
+      "label": "معلمي الذكي (Muallimi Al-Smart)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "health"
+      }
+    },
+    {
+      "id": "pr:نبض-الإمارات-nabdh-uae",
+      "label": "نبض الإمارات (Nabdh UAE)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 10,
+        "sector": "mobility"
+      }
+    },
+    {
+      "id": "pr:سهل-للتأهيل-sahl-rehabilitation",
+      "label": "سهل للتأهيل (Sahl Rehabilitation)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "health"
+      }
+    },
+    {
+      "id": "pr:فصيح-faseeh",
+      "label": "فصيح (Faseeh)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "environment"
+      }
+    },
+    {
+      "id": "pr:بوابة-الشفاء-shifa-gateway",
+      "label": "بوابة الشفاء (Shifa Gateway)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "health"
+      }
+    },
+    {
+      "id": "pr:مسار-التعليمي-masar",
+      "label": "مسار التعليمي (Masar)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "energy"
+      }
+    },
+    {
+      "id": "pr:دليلي-الصوتي-deleely",
+      "label": "دليلي الصوتي (Deleely)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 10,
+        "sector": "mobility"
+      }
+    },
+    {
+      "id": "pr:منصة-إرشاد-irshad",
+      "label": "منصة إرشاد (Irshad)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "environment"
+      }
+    },
+    {
+      "id": "pr:نظام-عون-awn-system",
+      "label": "نظام عون (Awn System)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 10,
+        "sector": "environment"
+      }
+    },
+    {
+      "id": "pr:مستودع-المعرفة-الإماراتي-uae-knowledge-hub",
+      "label": "مستودع المعرفة الإماراتي (UAE Knowledge Hub)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "education"
+      }
+    },
+    {
+      "id": "pr:أمل-للاضطرابات-اللغوية-amal-speech",
+      "label": "أمل للاضطرابات اللغوية (Amal Speech)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "education"
+      }
+    },
+    {
+      "id": "pr:العيادة-الخضراء-green-clinic",
+      "label": "العيادة الخضراء (Green Clinic)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "energy"
+      }
+    },
+    {
+      "id": "pr:منصة-مهارة-mahara",
+      "label": "منصة مهارة (Mahara)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "health"
+      }
+    },
+    {
+      "id": "pr:لغة-الإشارة-الإماراتية-الرقمية-uae-sign",
+      "label": "لغة الإشارة الإماراتية الرقمية (UAE Sign)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 10,
+        "sector": "environment"
+      }
+    },
+    {
+      "id": "pr:نبض-الطفل-babypulse",
+      "label": "نبض الطفل (BabyPulse)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "health"
+      }
+    },
+    {
+      "id": "pr:مدرسة-الذكاء-ai-madrasa",
+      "label": "مدرسة الذكاء (AI Madrasa)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "education"
+      }
+    },
+    {
+      "id": "pr:منصة-تبرع-taborru",
+      "label": "منصة تبرع (Taborru')",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "environment"
+      }
+    },
+    {
+      "id": "pr:مرصد-الأوبئة-الإماراتي-uae-epiwatch",
+      "label": "مرصد الأوبئة الإماراتي (UAE EpiWatch)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 10,
+        "sector": "environment"
+      }
+    },
+    {
+      "id": "pr:مداد-للترجمة-الأكاديمية-medad-translate",
+      "label": "مداد للترجمة الأكاديمية (Medad Translate)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "health"
+      }
+    },
+    {
+      "id": "pr:دليل-أصحاب-الهمم-للأماكن-العامة-accessible-dxb",
+      "label": "دليل أصحاب الهمم للأماكن العامة (Accessible DXB)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 10,
+        "sector": "water"
+      }
+    },
+    {
+      "id": "pr:حاسبة-المواريث-والوصايا-الإماراتية-inheritance-planner",
+      "label": "حاسبة المواريث والوصايا الإماراتية (Inheritance Planner)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "health"
+      }
+    },
+    {
+      "id": "pr:مساعد-امتثال-سوق-أبوظبي-العالمي-القائم-على-فالكون",
+      "label": "مساعد امتثال سوق أبوظبي العالمي القائم على فالكون",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "environment"
+      }
+    },
+    {
+      "id": "pr:أداة-تصور-بيانات-الغلاف-الجوي-للمريخ-لمسبار-الأمل",
+      "label": "أداة تصور بيانات الغلاف الجوي للمريخ لمسبار الأمل",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "environment"
+      }
+    },
+    {
+      "id": "pr:نظام-فهرسة-البيانات-الحرارية-لأقمار-مركز-محمد-بن-راشد-للفضاء",
+      "label": "نظام فهرسة البيانات الحرارية لأقمار مركز محمد بن راشد للفضاء",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "environment"
+      }
+    },
+    {
+      "id": "pr:المحك-م-الذكي-لمنطقة-مركز-دبي-المالي-العالمي",
+      "label": "المحكّم الذكي لمنطقة مركز دبي المالي العالمي",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "finance"
+      }
+    },
+    {
+      "id": "pr:محس-ن-جدولة-شحن-موانئ-دولة-الإمارات",
+      "label": "محسّن جدولة شحن موانئ دولة الإمارات",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "mobility"
+      }
+    },
+    {
+      "id": "pr:منصة-ضبط-نموذج-فالكون-للأبحاث-الأكاديمية-باللغة-العربية",
+      "label": "منصة ضبط نموذج فالكون للأبحاث الأكاديمية باللغة العربية",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "health"
+      }
+    },
+    {
+      "id": "pr:وسيط-شبكة-الطاقة-الإماراتية-اللامركزي",
+      "label": "وسيط شبكة الطاقة الإماراتية اللامركزي",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "energy"
+      }
+    },
+    {
+      "id": "pr:مخطط-الجزر-الحرارية-الحضرية-لمركز-محمد-بن-راشد-للفضاء",
+      "label": "مخطط الجزر الحرارية الحضرية لمركز محمد بن راشد للفضاء",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "energy"
+      }
+    },
+    {
+      "id": "pr:نواة-الصيانة-التنبؤية-لقطاع-الطيران-الإماراتي",
+      "label": "نواة الصيانة التنبؤية لقطاع الطيران الإماراتي",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 10,
+        "sector": "mobility"
+      }
+    },
+    {
+      "id": "pr:محرك-التسعير-الديناميكي-للترويج-السياحي-في-دبي",
+      "label": "محرك التسعير الديناميكي للترويج السياحي في دبي",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "tourism"
+      }
+    },
+    {
+      "id": "pr:محلل-الكربون-الأزرق-للاقتصاد-البيئي-في-أبوظبي",
+      "label": "محلل الكربون الأزرق للاقتصاد البيئي في أبوظبي",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "environment"
+      }
+    },
+    {
+      "id": "pr:نظام-الإنذار-المبكر-وحماية-البنية-التحتية-من-العواصف-الرملية",
+      "label": "نظام الإنذار المبكر وحماية البنية التحتية من العواصف الرملية في الإمارات",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "energy"
+      }
+    },
+    {
+      "id": "pr:محاكي-تدفق-الزوار-في-جامع-الشيخ-زايد-الكبير",
+      "label": "محاكي تدفق الزوار في جامع الشيخ زايد الكبير",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "tourism"
+      }
+    },
+    {
+      "id": "pr:كاشف-الصدوع-الزلزالية-الجوفية-لأدنوك",
+      "label": "كاشف الصدوع الزلزالية الجوفية لأدنوك",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 10,
+        "sector": "energy"
+      }
+    },
+    {
+      "id": "pr:مؤشر-إجهاد-سلاسل-التوريد-البحرية-الإماراتية",
+      "label": "مؤشر إجهاد سلاسل التوريد البحرية الإماراتية",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "mobility"
+      }
+    },
+    {
+      "id": "pr:محرك-محاكاة-الرسوم-الجمركية-والتجارة-الاتحادية-الإماراتية",
+      "label": "محرك محاكاة الرسوم الجمركية والتجارة الاتحادية الإماراتية",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "environment"
+      }
+    },
+    {
+      "id": "pr:مستشرف-إنتاجية-التربة-الجافة-القائم-على-الذكاء-الاصطناعي-في-",
+      "label": "مستشرف إنتاجية التربة الجافة القائم على الذكاء الاصطناعي في الإمارات",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "water"
+      }
+    },
+    {
+      "id": "pr:كاشف-شذوذ-التداول-الفوري-لأسواق-المال-الإماراتية-adx-و-dfm",
+      "label": "كاشف شذوذ التداول الفوري لأسواق المال الإماراتية ADX و DFM",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "environment"
+      }
+    },
+    {
+      "id": "pr:محاكي-الحركة-المرورية-للتوأم-الرقمي-الوطني-الإماراتي",
+      "label": "محاكي الحركة المرورية للتوأم الرقمي الوطني الإماراتي",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "mobility"
+      }
+    },
+    {
+      "id": "pr:نظام-الإنذار-من-اصطدام-الحطام-الفضائي-التابع-لمركز-محمد-بن-ر",
+      "label": "نظام الإنذار من اصطدام الحطام الفضائي التابع لمركز محمد بن راشد للفضاء",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 10,
+        "sector": "environment"
+      }
+    },
+    {
+      "id": "pr:منصة-إغاثة-لتوجيه-المساعدات-الإنسانية-الدولية",
+      "label": "منصة \"إغاثة\" لتوجيه المساعدات الإنسانية الدولية",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 10,
+        "sector": "mobility"
+      }
+    },
+    {
+      "id": "pr:نظام-مؤازرة-لتنسيق-المساعدات-المحلية",
+      "label": "نظام \"مؤازرة\" لتنسيق المساعدات المحلية",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "cross"
+      }
+    },
+    {
+      "id": "pr:منصة-سند-لدمج-وتأهيل-المقيمين-بظروف-إنسانية",
+      "label": "منصة \"سند\" لدمج وتأهيل المقيمين بظروف إنسانية",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "education"
+      }
+    },
+    {
+      "id": "pr:تطبيق-عون-للاستجابة-الطارئة-والإنقاذ-المجتمعي",
+      "label": "تطبيق \"عون\" للاستجابة الطارئة والإنقاذ المجتمعي",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 10,
+        "sector": "mobility"
+      }
+    },
+    {
+      "id": "pr:منصة-سهم-الخير-لحساب-وتوزيع-الزكاة-الذكية",
+      "label": "منصة \"سهم الخير\" لحساب وتوزيع الزكاة الذكية",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "health"
+      }
+    },
+    {
+      "id": "pr:بوابة-تكاتف-الرقمية-لتنظيم-العمل-التطوعي-التخصصي",
+      "label": "بوابة \"تكاتف الرقمية\" لتنظيم العمل التطوعي التخصصي",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "cross"
+      }
+    },
+    {
+      "id": "pr:نظام-رعاية-لمراقبة-سلامة-وصحة-العمال",
+      "label": "نظام \"رعاية\" لمراقبة سلامة وصحة العمال",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 10,
+        "sector": "environment"
+      }
+    },
+    {
+      "id": "pr:منصة-تآلف-للدعم-النفسي-والاجتماعي-المجتمعي",
+      "label": "منصة \"تآلف\" للدعم النفسي والاجتماعي المجتمعي",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "health"
+      }
+    },
+    {
+      "id": "pr:تطبيق-أمان-لحماية-أصحاب-الهمم-وكبار-المواطنين",
+      "label": "تطبيق \"أمان\" لحماية أصحاب الهمم وكبار المواطنين",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 10,
+        "sector": "health"
+      }
+    },
+    {
+      "id": "pr:منصة-جسور-لتوظيف-كفاءات-الأزمات-واللاجئين",
+      "label": "منصة \"جسور\" لتوظيف كفاءات الأزمات واللاجئين",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 10,
+        "sector": "education"
+      }
+    },
+    {
+      "id": "pr:نظام-مخزون-الإغاثة-اللوجستي-لإدارة-مستودعات-المخيمات",
+      "label": "نظام \"مخزون الإغاثة\" اللوجستي لإدارة مستودعات المخيمات",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 10,
+        "sector": "mobility"
+      }
+    },
+    {
+      "id": "pr:منصة-عطاء-المدارس-لإعادة-تدوير-وتبرع-المستلزمات-التعليمية",
+      "label": "منصة \"عطاء المدارس\" لإعادة تدوير وتبرع المستلزمات التعليمية",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "mobility"
+      }
+    },
+    {
+      "id": "pr:تطبيق-أمن-الطرق-للإنقاذ-والاستجابة-في-المناطق-الصحراوية-والن",
+      "label": "تطبيق \"أمن الطرق\" للإنقاذ والاستجابة في المناطق الصحراوية والنائية",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 10,
+        "sector": "mobility"
+      }
+    },
+    {
+      "id": "pr:منصة-بيئة-واحدة-لإدارة-مبادرات-الاستدامة-البيئية-المجتمعية",
+      "label": "منصة \"بيئة واحدة\" لإدارة مبادرات الاستدامة البيئية المجتمعية",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 8,
+        "sector": "environment"
+      }
+    },
+    {
+      "id": "pr:نظام-كفالة-الذكي-لرعاية-وإدارة-شؤون-الأيتام",
+      "label": "نظام \"كفالة\" الذكي لرعاية وإدارة شؤون الأيتام",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 10,
+        "sector": "health"
+      }
+    },
+    {
+      "id": "pr:بوابة-دعم-لحوكمة-وتنظيم-شؤون-العمالة-المساعدة",
+      "label": "بوابة \"دعم\" لحوكمة وتنظيم شؤون العمالة المساعدة",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "education"
+      }
+    },
+    {
+      "id": "pr:منصة-مخيمنا-الذكي-لإدارة-موارد-الطاقة-والمياه-في-مخيمات-اللا",
+      "label": "منصة \"مخيمنا الذكي\" لإدارة موارد الطاقة والمياه في مخيمات اللاجئين",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 10,
+        "sector": "energy"
+      }
+    },
+    {
+      "id": "pr:تطبيق-وجبة-خير-لحفظ-النعمة-والتوزيع-الفوري-للأغذية-الفائضة",
+      "label": "تطبيق \"وجبة خير\" لحفظ النعمة والتوزيع الفوري للأغذية الفائضة",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 10,
+        "sector": "mobility"
+      }
+    },
+    {
+      "id": "pr:منصة-حاضنة-غد-لدعم-ريادة-الأعمال-للمهجرين-واللاجئين",
+      "label": "منصة \"حاضنة غد\" لدعم ريادة الأعمال للمهجرين واللاجئين",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 9,
+        "sector": "environment"
+      }
+    },
+    {
+      "id": "pr:نظام-مأوى-الذكي-للإيواء-العاجل-وإدارة-أزمات-السكن-الطارئة",
+      "label": "نظام \"مأوى\" الذكي للإيواء العاجل وإدارة أزمات السكن الطارئة",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 10,
+        "sector": "health"
+      }
+    },
+    {
+      "id": "pr:منبه-حماية-العمال-من-الإجهاد-الحراري-mohre-heat-guard",
+      "label": "منبه حماية العمال من الإجهاد الحراري (MOHRE Heat Guard)",
+      "type": "project",
+      "weight": 1,
+      "meta": {
+        "impact": 10,
+        "sector": "health"
+      }
+    },
+    {
+      "id": "skc:Foundation",
+      "label": "Foundation",
+      "type": "skillcat",
+      "weight": 1
+    },
+    {
+      "id": "skc:Data",
+      "label": "Data",
+      "type": "skillcat",
+      "weight": 1
+    },
+    {
+      "id": "skc:Technical",
+      "label": "Technical",
+      "type": "skillcat",
+      "weight": 1
+    },
+    {
+      "id": "skc:Business",
+      "label": "Business",
+      "type": "skillcat",
+      "weight": 1
+    },
+    {
+      "id": "skc:Governance",
+      "label": "Governance",
+      "type": "skillcat",
+      "weight": 1
+    },
+    {
+      "id": "skc:Cybersecurity",
+      "label": "Cybersecurity",
+      "type": "skillcat",
+      "weight": 1
+    }
+  ],
+  "edges": [
+    {
+      "source": "fz:dmcc",
+      "target": "em:Dubai",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:dmcc",
+      "target": "fzsec:commodities",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dmcc",
+      "target": "fzsec:trading",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dmcc",
+      "target": "fzsec:crypto",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dmcc",
+      "target": "fzsec:general",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:difc",
+      "target": "em:Dubai",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:difc",
+      "target": "fzsec:finance",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:difc",
+      "target": "fzsec:fintech",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:difc",
+      "target": "fzsec:legal",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:jafza",
+      "target": "em:Dubai",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:jafza",
+      "target": "fzsec:logistics",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:jafza",
+      "target": "fzsec:trading",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:jafza",
+      "target": "fzsec:industry",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dafz",
+      "target": "em:Dubai",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:dafz",
+      "target": "fzsec:aviation",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dafz",
+      "target": "fzsec:trading",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dafz",
+      "target": "fzsec:tech",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dubai-south",
+      "target": "em:Dubai",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:dubai-south",
+      "target": "fzsec:logistics",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dubai-south",
+      "target": "fzsec:aviation",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dubai-south",
+      "target": "fzsec:ecommerce",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dic",
+      "target": "em:Dubai",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:dic",
+      "target": "fzsec:tech",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dic",
+      "target": "fzsec:software",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dmc",
+      "target": "em:Dubai",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:dmc",
+      "target": "fzsec:media",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dmc",
+      "target": "fzsec:creative",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dkp",
+      "target": "em:Dubai",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:dkp",
+      "target": "fzsec:education",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dkp",
+      "target": "fzsec:hr",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dkp",
+      "target": "fzsec:consulting",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dsp",
+      "target": "em:Dubai",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:dsp",
+      "target": "fzsec:science",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dsp",
+      "target": "fzsec:healthcare",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dsp",
+      "target": "fzsec:research",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dpc",
+      "target": "em:Dubai",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:dpc",
+      "target": "fzsec:media",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dpc",
+      "target": "fzsec:printing",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dpc",
+      "target": "fzsec:packaging",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dsc",
+      "target": "em:Dubai",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:dsc",
+      "target": "fzsec:film",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dsc",
+      "target": "fzsec:media",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dsc",
+      "target": "fzsec:production",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:d3",
+      "target": "em:Dubai",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:d3",
+      "target": "fzsec:design",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:d3",
+      "target": "fzsec:fashion",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:d3",
+      "target": "fzsec:creative",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dso",
+      "target": "em:Dubai",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:dso",
+      "target": "fzsec:tech",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dso",
+      "target": "fzsec:hardware",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dso",
+      "target": "fzsec:electronics",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:meydan",
+      "target": "em:Dubai",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:meydan",
+      "target": "fzsec:general",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:meydan",
+      "target": "fzsec:trading",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:meydan",
+      "target": "fzsec:consulting",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:meydan",
+      "target": "fzsec:ecommerce",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:ifza",
+      "target": "em:Dubai",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:ifza",
+      "target": "fzsec:general",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:ifza",
+      "target": "fzsec:trading",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:ifza",
+      "target": "fzsec:consulting",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:commercity",
+      "target": "em:Dubai",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:commercity",
+      "target": "fzsec:ecommerce",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:commercity",
+      "target": "fzsec:logistics",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dhcc",
+      "target": "em:Dubai",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:dhcc",
+      "target": "fzsec:healthcare",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dhcc",
+      "target": "fzsec:wellness",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dwtc",
+      "target": "em:Dubai",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:dwtc",
+      "target": "fzsec:events",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dwtc",
+      "target": "fzsec:crypto",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:dwtc",
+      "target": "fzsec:general",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:expo-city",
+      "target": "em:Dubai",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:expo-city",
+      "target": "fzsec:sustainability",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:expo-city",
+      "target": "fzsec:tech",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:expo-city",
+      "target": "fzsec:events",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:adgm",
+      "target": "em:Abu Dhabi",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:adgm",
+      "target": "fzsec:finance",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:adgm",
+      "target": "fzsec:fintech",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:adgm",
+      "target": "fzsec:crypto",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:adgm",
+      "target": "fzsec:tech",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:kezad",
+      "target": "em:Abu Dhabi",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:kezad",
+      "target": "fzsec:industry",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:kezad",
+      "target": "fzsec:logistics",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:kezad",
+      "target": "fzsec:manufacturing",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:masdar",
+      "target": "em:Abu Dhabi",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:masdar",
+      "target": "fzsec:cleantech",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:masdar",
+      "target": "fzsec:sustainability",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:masdar",
+      "target": "fzsec:ai",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:masdar",
+      "target": "fzsec:mobility",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:twofour54",
+      "target": "em:Abu Dhabi",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:twofour54",
+      "target": "fzsec:media",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:twofour54",
+      "target": "fzsec:gaming",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:twofour54",
+      "target": "fzsec:film",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:adafz",
+      "target": "em:Abu Dhabi",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:adafz",
+      "target": "fzsec:aviation",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:adafz",
+      "target": "fzsec:logistics",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:adafz",
+      "target": "fzsec:trading",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:saif",
+      "target": "em:Sharjah",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:saif",
+      "target": "fzsec:trading",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:saif",
+      "target": "fzsec:industry",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:saif",
+      "target": "fzsec:aviation",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:hamriyah",
+      "target": "em:Sharjah",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:hamriyah",
+      "target": "fzsec:industry",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:hamriyah",
+      "target": "fzsec:maritime",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:hamriyah",
+      "target": "fzsec:oil-gas",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:shams",
+      "target": "em:Sharjah",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:shams",
+      "target": "fzsec:media",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:shams",
+      "target": "fzsec:creative",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:shams",
+      "target": "fzsec:general",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:srtip",
+      "target": "em:Sharjah",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:srtip",
+      "target": "fzsec:research",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:srtip",
+      "target": "fzsec:deeptech",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:srtip",
+      "target": "fzsec:sustainability",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:spc",
+      "target": "em:Sharjah",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:spc",
+      "target": "fzsec:publishing",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:spc",
+      "target": "fzsec:general",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:spc",
+      "target": "fzsec:ecommerce",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:rakez",
+      "target": "em:Ras Al Khaimah",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:rakez",
+      "target": "fzsec:general",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:rakez",
+      "target": "fzsec:industry",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:rakez",
+      "target": "fzsec:trading",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:rak-icc",
+      "target": "em:Ras Al Khaimah",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:rak-icc",
+      "target": "fzsec:offshore",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:rak-icc",
+      "target": "fzsec:holding",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:afz",
+      "target": "em:Ajman",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:afz",
+      "target": "fzsec:trading",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:afz",
+      "target": "fzsec:general",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:afz",
+      "target": "fzsec:industry",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:amc",
+      "target": "em:Ajman",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:amc",
+      "target": "fzsec:media",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:amc",
+      "target": "fzsec:general",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:uaq-ftz",
+      "target": "em:Umm Al Quwain",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:uaq-ftz",
+      "target": "fzsec:general",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:uaq-ftz",
+      "target": "fzsec:trading",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:uaq-ftz",
+      "target": "fzsec:consulting",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:fujairah-fz",
+      "target": "em:Fujairah",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:fujairah-fz",
+      "target": "fzsec:trading",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:fujairah-fz",
+      "target": "fzsec:logistics",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:fujairah-fz",
+      "target": "fzsec:maritime",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:creative-city",
+      "target": "em:Fujairah",
+      "type": "LOCATED_IN"
+    },
+    {
+      "source": "fz:creative-city",
+      "target": "fzsec:media",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:creative-city",
+      "target": "fzsec:creative",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "fz:creative-city",
+      "target": "fzsec:consulting",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "pr:م-حس-ن-الشبكة-الذكية-لهيئة-كهرباء-ومياه-دبي-ديوا",
+      "target": "sec:energy",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:م-حس-ن-الشبكة-الذكية-لهيئة-كهرباء-ومياه-دبي-ديوا",
+      "target": "em:Dubai",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:م-حس-ن-تدفق-الحركة-المرورية-لدبي-عبر-كاميرات-هيئة-الطرق-والم",
+      "target": "sec:mobility",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:م-حس-ن-تدفق-الحركة-المرورية-لدبي-عبر-كاميرات-هيئة-الطرق-والم",
+      "target": "em:Dubai",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:نظام-التحكم-الذكي-في-تبريد-المناطق-لمدينة-مصدر",
+      "target": "sec:energy",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:نظام-التحكم-الذكي-في-تبريد-المناطق-لمدينة-مصدر",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:م-قي-م-وم-ؤتم-ت-نظام-استدامة-للمباني-الخضراء-في-أبوظبي",
+      "target": "sec:environment",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:م-قي-م-وم-ؤتم-ت-نظام-استدامة-للمباني-الخضراء-في-أبوظبي",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:رادار-الطاقة-الشمسية-لأسطح-الفلل-السكنية-في-الإمارات",
+      "target": "sec:energy",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:رادار-الطاقة-الشمسية-لأسطح-الفلل-السكنية-في-الإمارات",
+      "target": "em:Dubai",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:مرصد-التأثير-البيئي-للمحلول-الملح-ي-لمحطات-تحلية-المياه",
+      "target": "sec:water",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:مرصد-التأثير-البيئي-للمحلول-الملح-ي-لمحطات-تحلية-المياه",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:الموزع-الذكي-لشحن-السيارات-الكهربائية-في-المباني-متعددة-العا",
+      "target": "sec:mobility",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:الموزع-الذكي-لشحن-السيارات-الكهربائية-في-المباني-متعددة-العا",
+      "target": "em:Dubai",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:منظومة-طائرات-الدرون-لزراعة-وتتبع-أشجار-القرم-في-الإمارات",
+      "target": "sec:environment",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:منظومة-طائرات-الدرون-لزراعة-وتتبع-أشجار-القرم-في-الإمارات",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:نظام-فرز-النفايات-وتوجيه-الحاويات-الديناميكي-لأبوظبي",
+      "target": "sec:mobility",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:نظام-فرز-النفايات-وتوجيه-الحاويات-الديناميكي-لأبوظبي",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:نظام-تخفيف-الجزر-الحرارية-الحضرية-في-دبي",
+      "target": "sec:energy",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:نظام-تخفيف-الجزر-الحرارية-الحضرية-في-دبي",
+      "target": "em:Dubai",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:نظام-إدارة-طاقة-وتكييف-مواقف-الحافلات-الذكية-بالشارقة",
+      "target": "sec:energy",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:نظام-إدارة-طاقة-وتكييف-مواقف-الحافلات-الذكية-بالشارقة",
+      "target": "em:Dubai",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:محاكي-إعادة-تغذية-خزانات-المياه-الجوفية-في-الإمارات",
+      "target": "sec:energy",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:مخطط-كثافة-ركاب-مترو-دبي-الذكي",
+      "target": "sec:mobility",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:مخطط-كثافة-ركاب-مترو-دبي-الذكي",
+      "target": "em:Dubai",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:نظام-تدوير-المياه-الرمادية-المتوافق-مع-استدامة-للمدارس-الإما",
+      "target": "sec:water",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:شبكة-إضاءة-الشوارع-الذكية-المترابطة-لأبوظبي",
+      "target": "sec:energy",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:شبكة-إضاءة-الشوارع-الذكية-المترابطة-لأبوظبي",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:روبوت-رصد-الغبار-والتنظيف-التلقائي-للألواح-الشمسية-في-الإمار",
+      "target": "sec:energy",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:مرصد-الضوضاء-وجودة-الهواء-لمواقع-البناء-في-دبي",
+      "target": "sec:environment",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:مرصد-الضوضاء-وجودة-الهواء-لمواقع-البناء-في-دبي",
+      "target": "em:Dubai",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:مخطط-قابلية-المشي-الذكي-للمناطق-التاريخية-بالشارقة",
+      "target": "sec:mobility",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:مخطط-قابلية-المشي-الذكي-للمناطق-التاريخية-بالشارقة",
+      "target": "em:Sharjah",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:م-قد-ر-الكربون-الأزرق-البحري-لدولة-الإمارات",
+      "target": "sec:environment",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:الرابط-الذكي-لإعادة-توجيه-وفائض-طعام-الإمارات",
+      "target": "sec:environment",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:مطهر-العناوين-الجغرافية-الذكي-لشركات-التوصيل-uae-address-for",
+      "target": "sec:mobility",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:بوابة-العقود-الرقمية-الموثقة-عقد-الإماراتي",
+      "target": "sec:environment",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:بوابة-العقود-الرقمية-الموثقة-عقد-الإماراتي",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:النظام-الذكي-لحساب-الرسوم-الجمركية-الموحد",
+      "target": "sec:mobility",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:النظام-الذكي-لحساب-الرسوم-الجمركية-الموحد",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:حزمة-تطوير-برمجيات-الهوية-الرقمية-المفتوحة-uae-pass-easysdk",
+      "target": "sec:health",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:حزمة-تطوير-برمجيات-الهوية-الرقمية-المفتوحة-uae-pass-easysdk",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:مستكشف-السجل-الاقتصادي-الوطني-المفتوح-ner-explorer",
+      "target": "sec:finance",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:مستكشف-السجل-الاقتصادي-الوطني-المفتوح-ner-explorer",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:منصة-التحكيم-العقاري-الذكي-لفض-النزاعات",
+      "target": "sec:realestate",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:منصة-التحكيم-العقاري-الذكي-لفض-النزاعات",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:المحرك-اللوجستي-الذكي-لتخزين-الحاويات-smartport",
+      "target": "sec:mobility",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:المحرك-اللوجستي-الذكي-لتخزين-الحاويات-smartport",
+      "target": "em:Dubai",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:المستشار-التشريعي-الإماراتي-uae-lawai",
+      "target": "sec:education",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:المستشار-التشريعي-الإماراتي-uae-lawai",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:منصة-الأوقاف-الرقمية-وقف-ذكي",
+      "target": "sec:finance",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:منصة-الأوقاف-الرقمية-وقف-ذكي",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:موصل-الضرائب-والفوترة-الإلكترونية-لبرمجيات-erp",
+      "target": "sec:finance",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:موصل-الضرائب-والفوترة-الإلكترونية-لبرمجيات-erp",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:النظام-الرقمي-لشهادات-المنشأ-عبر-البلوكشين-traceorigin",
+      "target": "sec:cross",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:النظام-الرقمي-لشهادات-المنشأ-عبر-البلوكشين-traceorigin",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:مرصد-جودة-الخدمات-الرقمية-الحكومية-govsentiment",
+      "target": "sec:health",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:مرصد-جودة-الخدمات-الرقمية-الحكومية-govsentiment",
+      "target": "em:Dubai",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:حزمة-حوكمة-البيانات-والامتثال-لقانون-pdpl",
+      "target": "sec:retail",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:حزمة-حوكمة-البيانات-والامتثال-لقانون-pdpl",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:بوابة-الملكية-الفكرية-وبراءات-الاختراع-المفتوحة",
+      "target": "sec:cross",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:منسق-النقل-اللوجستي-العابر-للحدود-borderlink",
+      "target": "sec:mobility",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:منسق-النقل-اللوجستي-العابر-للحدود-borderlink",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:مقيم-الأهلية-للإقامة-الذهبية-goldenvisaai",
+      "target": "sec:education",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:مقيم-الأهلية-للإقامة-الذهبية-goldenvisaai",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:منصة-صياغة-العقود-المتوافقة-مع-قانون-العمل-والشركات-الإمارات",
+      "target": "sec:cross",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:منصة-صياغة-العقود-المتوافقة-مع-قانون-العمل-والشركات-الإمارات",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:المنصة-اللوجستية-للمساعدات-الإنسانية-الإماراتية-humanityflow",
+      "target": "sec:mobility",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:المنصة-اللوجستية-للمساعدات-الإنسانية-الإماراتية-humanityflow",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:نظام-أرشيف-الأحكام-القضائية-وتحليل-السوابق-الذكي",
+      "target": "sec:cross",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:نظام-أرشيف-الأحكام-القضائية-وتحليل-السوابق-الذكي",
+      "target": "em:Dubai",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:المنصة-البلدية-المفتوحة-للتصاريح-smartpermits",
+      "target": "sec:realestate",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:المنصة-البلدية-المفتوحة-للتصاريح-smartpermits",
+      "target": "em:Dubai",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:نظام-تحسين-التوصيل-وسلاسل-التوريد-المحلية-routeoptima",
+      "target": "sec:mobility",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:نظام-تحسين-التوصيل-وسلاسل-التوريد-المحلية-routeoptima",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:حزمة-التكامل-المبسط-للهوية-الرقمية-uae-pass-easysdk",
+      "target": "sec:health",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:م-دقق-الفواتير-الضريبية-لضريبة-القيمة-المضافة-uae-vat-invoic",
+      "target": "sec:health",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:سند-sanad",
+      "target": "sec:mobility",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:سند-sanad",
+      "target": "em:Dubai",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:معلمي-الذكي-muallimi-al-smart",
+      "target": "sec:health",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:نبض-الإمارات-nabdh-uae",
+      "target": "sec:mobility",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:نبض-الإمارات-nabdh-uae",
+      "target": "em:Dubai",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:سهل-للتأهيل-sahl-rehabilitation",
+      "target": "sec:health",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:سهل-للتأهيل-sahl-rehabilitation",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:فصيح-faseeh",
+      "target": "sec:environment",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:بوابة-الشفاء-shifa-gateway",
+      "target": "sec:health",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:مسار-التعليمي-masar",
+      "target": "sec:energy",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:دليلي-الصوتي-deleely",
+      "target": "sec:mobility",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:دليلي-الصوتي-deleely",
+      "target": "em:Dubai",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:منصة-إرشاد-irshad",
+      "target": "sec:environment",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:نظام-عون-awn-system",
+      "target": "sec:environment",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:نظام-عون-awn-system",
+      "target": "em:Dubai",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:مستودع-المعرفة-الإماراتي-uae-knowledge-hub",
+      "target": "sec:education",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:مستودع-المعرفة-الإماراتي-uae-knowledge-hub",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:أمل-للاضطرابات-اللغوية-amal-speech",
+      "target": "sec:education",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:العيادة-الخضراء-green-clinic",
+      "target": "sec:energy",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:العيادة-الخضراء-green-clinic",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:منصة-مهارة-mahara",
+      "target": "sec:health",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:لغة-الإشارة-الإماراتية-الرقمية-uae-sign",
+      "target": "sec:environment",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:نبض-الطفل-babypulse",
+      "target": "sec:health",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:مدرسة-الذكاء-ai-madrasa",
+      "target": "sec:education",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:مدرسة-الذكاء-ai-madrasa",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:منصة-تبرع-taborru",
+      "target": "sec:environment",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:مرصد-الأوبئة-الإماراتي-uae-epiwatch",
+      "target": "sec:environment",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:مرصد-الأوبئة-الإماراتي-uae-epiwatch",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:مداد-للترجمة-الأكاديمية-medad-translate",
+      "target": "sec:health",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:دليل-أصحاب-الهمم-للأماكن-العامة-accessible-dxb",
+      "target": "sec:water",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:حاسبة-المواريث-والوصايا-الإماراتية-inheritance-planner",
+      "target": "sec:health",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:مساعد-امتثال-سوق-أبوظبي-العالمي-القائم-على-فالكون",
+      "target": "sec:environment",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:مساعد-امتثال-سوق-أبوظبي-العالمي-القائم-على-فالكون",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:أداة-تصور-بيانات-الغلاف-الجوي-للمريخ-لمسبار-الأمل",
+      "target": "sec:environment",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:نظام-فهرسة-البيانات-الحرارية-لأقمار-مركز-محمد-بن-راشد-للفضاء",
+      "target": "sec:environment",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:نظام-فهرسة-البيانات-الحرارية-لأقمار-مركز-محمد-بن-راشد-للفضاء",
+      "target": "em:Dubai",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:المحك-م-الذكي-لمنطقة-مركز-دبي-المالي-العالمي",
+      "target": "sec:finance",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:المحك-م-الذكي-لمنطقة-مركز-دبي-المالي-العالمي",
+      "target": "em:Dubai",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:محس-ن-جدولة-شحن-موانئ-دولة-الإمارات",
+      "target": "sec:mobility",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:محس-ن-جدولة-شحن-موانئ-دولة-الإمارات",
+      "target": "em:Dubai",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:منصة-ضبط-نموذج-فالكون-للأبحاث-الأكاديمية-باللغة-العربية",
+      "target": "sec:health",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:وسيط-شبكة-الطاقة-الإماراتية-اللامركزي",
+      "target": "sec:energy",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:مخطط-الجزر-الحرارية-الحضرية-لمركز-محمد-بن-راشد-للفضاء",
+      "target": "sec:energy",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:مخطط-الجزر-الحرارية-الحضرية-لمركز-محمد-بن-راشد-للفضاء",
+      "target": "em:Dubai",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:نواة-الصيانة-التنبؤية-لقطاع-الطيران-الإماراتي",
+      "target": "sec:mobility",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:نواة-الصيانة-التنبؤية-لقطاع-الطيران-الإماراتي",
+      "target": "em:Dubai",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:محرك-التسعير-الديناميكي-للترويج-السياحي-في-دبي",
+      "target": "sec:tourism",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:محرك-التسعير-الديناميكي-للترويج-السياحي-في-دبي",
+      "target": "em:Dubai",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:محلل-الكربون-الأزرق-للاقتصاد-البيئي-في-أبوظبي",
+      "target": "sec:environment",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:محلل-الكربون-الأزرق-للاقتصاد-البيئي-في-أبوظبي",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:نظام-الإنذار-المبكر-وحماية-البنية-التحتية-من-العواصف-الرملية",
+      "target": "sec:energy",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:محاكي-تدفق-الزوار-في-جامع-الشيخ-زايد-الكبير",
+      "target": "sec:tourism",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:محاكي-تدفق-الزوار-في-جامع-الشيخ-زايد-الكبير",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:كاشف-الصدوع-الزلزالية-الجوفية-لأدنوك",
+      "target": "sec:energy",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:مؤشر-إجهاد-سلاسل-التوريد-البحرية-الإماراتية",
+      "target": "sec:mobility",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:محرك-محاكاة-الرسوم-الجمركية-والتجارة-الاتحادية-الإماراتية",
+      "target": "sec:environment",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:مستشرف-إنتاجية-التربة-الجافة-القائم-على-الذكاء-الاصطناعي-في-",
+      "target": "sec:water",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:كاشف-شذوذ-التداول-الفوري-لأسواق-المال-الإماراتية-adx-و-dfm",
+      "target": "sec:environment",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:كاشف-شذوذ-التداول-الفوري-لأسواق-المال-الإماراتية-adx-و-dfm",
+      "target": "em:Dubai",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:محاكي-الحركة-المرورية-للتوأم-الرقمي-الوطني-الإماراتي",
+      "target": "sec:mobility",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:محاكي-الحركة-المرورية-للتوأم-الرقمي-الوطني-الإماراتي",
+      "target": "em:Dubai",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:نظام-الإنذار-من-اصطدام-الحطام-الفضائي-التابع-لمركز-محمد-بن-ر",
+      "target": "sec:environment",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:نظام-الإنذار-من-اصطدام-الحطام-الفضائي-التابع-لمركز-محمد-بن-ر",
+      "target": "em:Dubai",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:منصة-إغاثة-لتوجيه-المساعدات-الإنسانية-الدولية",
+      "target": "sec:mobility",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:منصة-إغاثة-لتوجيه-المساعدات-الإنسانية-الدولية",
+      "target": "em:Dubai",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:نظام-مؤازرة-لتنسيق-المساعدات-المحلية",
+      "target": "sec:cross",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:منصة-سند-لدمج-وتأهيل-المقيمين-بظروف-إنسانية",
+      "target": "sec:education",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:تطبيق-عون-للاستجابة-الطارئة-والإنقاذ-المجتمعي",
+      "target": "sec:mobility",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:منصة-سهم-الخير-لحساب-وتوزيع-الزكاة-الذكية",
+      "target": "sec:health",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:بوابة-تكاتف-الرقمية-لتنظيم-العمل-التطوعي-التخصصي",
+      "target": "sec:cross",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:نظام-رعاية-لمراقبة-سلامة-وصحة-العمال",
+      "target": "sec:environment",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:منصة-تآلف-للدعم-النفسي-والاجتماعي-المجتمعي",
+      "target": "sec:health",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:تطبيق-أمان-لحماية-أصحاب-الهمم-وكبار-المواطنين",
+      "target": "sec:health",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:منصة-جسور-لتوظيف-كفاءات-الأزمات-واللاجئين",
+      "target": "sec:education",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:نظام-مخزون-الإغاثة-اللوجستي-لإدارة-مستودعات-المخيمات",
+      "target": "sec:mobility",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:نظام-مخزون-الإغاثة-اللوجستي-لإدارة-مستودعات-المخيمات",
+      "target": "em:Abu Dhabi",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:منصة-عطاء-المدارس-لإعادة-تدوير-وتبرع-المستلزمات-التعليمية",
+      "target": "sec:mobility",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:تطبيق-أمن-الطرق-للإنقاذ-والاستجابة-في-المناطق-الصحراوية-والن",
+      "target": "sec:mobility",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:منصة-بيئة-واحدة-لإدارة-مبادرات-الاستدامة-البيئية-المجتمعية",
+      "target": "sec:environment",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:نظام-كفالة-الذكي-لرعاية-وإدارة-شؤون-الأيتام",
+      "target": "sec:health",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:بوابة-دعم-لحوكمة-وتنظيم-شؤون-العمالة-المساعدة",
+      "target": "sec:education",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:بوابة-دعم-لحوكمة-وتنظيم-شؤون-العمالة-المساعدة",
+      "target": "em:Dubai",
+      "type": "IMPLEMENTED_IN"
+    },
+    {
+      "source": "pr:منصة-مخيمنا-الذكي-لإدارة-موارد-الطاقة-والمياه-في-مخيمات-اللا",
+      "target": "sec:energy",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:تطبيق-وجبة-خير-لحفظ-النعمة-والتوزيع-الفوري-للأغذية-الفائضة",
+      "target": "sec:mobility",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:منصة-حاضنة-غد-لدعم-ريادة-الأعمال-للمهجرين-واللاجئين",
+      "target": "sec:environment",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:نظام-مأوى-الذكي-للإيواء-العاجل-وإدارة-أزمات-السكن-الطارئة",
+      "target": "sec:health",
+      "type": "BELONGS_TO"
+    },
+    {
+      "source": "pr:منبه-حماية-العمال-من-الإجهاد-الحراري-mohre-heat-guard",
+      "target": "sec:health",
+      "type": "BELONGS_TO"
+    }
+  ]
+}

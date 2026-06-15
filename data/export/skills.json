@@ -1,0 +1,82 @@
+[
+  {
+    "skill_id": "S001",
+    "skill_en": "AI literacy",
+    "skill_ar": "الثقافة العامة في الذكاء الاصطناعي",
+    "category": "Foundation",
+    "level": "Beginner",
+    "example_use_case": "Understand AI opportunities and risks before adopting tools"
+  },
+  {
+    "skill_id": "S002",
+    "skill_en": "Prompt engineering",
+    "skill_ar": "هندسة الأوامر",
+    "category": "Foundation",
+    "level": "Beginner",
+    "example_use_case": "Create reliable customer-service and marketing prompts"
+  },
+  {
+    "skill_id": "S003",
+    "skill_en": "Data analysis",
+    "skill_ar": "تحليل البيانات",
+    "category": "Data",
+    "level": "Intermediate",
+    "example_use_case": "Analyze sales demand and customer segments"
+  },
+  {
+    "skill_id": "S004",
+    "skill_en": "Data governance",
+    "skill_ar": "حوكمة البيانات",
+    "category": "Data",
+    "level": "Intermediate",
+    "example_use_case": "Prepare trusted datasets for AI use"
+  },
+  {
+    "skill_id": "S005",
+    "skill_en": "Machine learning",
+    "skill_ar": "تعلم الآلة",
+    "category": "Technical",
+    "level": "Advanced",
+    "example_use_case": "Build predictive maintenance or demand forecasting models"
+  },
+  {
+    "skill_id": "S006",
+    "skill_en": "Natural language processing",
+    "skill_ar": "معالجة اللغة الطبيعية",
+    "category": "Technical",
+    "level": "Advanced",
+    "example_use_case": "Classify Arabic and English customer feedback"
+  },
+  {
+    "skill_id": "S007",
+    "skill_en": "Computer vision",
+    "skill_ar": "الرؤية الحاسوبية",
+    "category": "Technical",
+    "level": "Advanced",
+    "example_use_case": "Inspect products, assets, documents, and safety conditions"
+  },
+  {
+    "skill_id": "S008",
+    "skill_en": "AI product management",
+    "skill_ar": "إدارة منتجات الذكاء الاصطناعي",
+    "category": "Business",
+    "level": "Intermediate",
+    "example_use_case": "Turn business problems into measurable AI pilots"
+  },
+  {
+    "skill_id": "S009",
+    "skill_en": "Responsible AI",
+    "skill_ar": "الذكاء الاصطناعي المسؤول",
+    "category": "Governance",
+    "level": "Intermediate",
+    "example_use_case": "Assess bias, privacy, transparency, and accountability"
+  },
+  {
+    "skill_id": "S010",
+    "skill_en": "AI cybersecurity",
+    "skill_ar": "أمن الذكاء الاصطناعي",
+    "category": "Cybersecurity",
+    "level": "Advanced",
+    "example_use_case": "Secure AI workflows, APIs, models, and data pipelines"
+  }
+]

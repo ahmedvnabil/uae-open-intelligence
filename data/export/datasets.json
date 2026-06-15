@@ -1,0 +1,167 @@
+[
+  {
+    "id": "innovation-projects",
+    "title_ar": "مشاريع الابتكار في الإمارات",
+    "title_en": "UAE Innovation Projects",
+    "description_ar": "قاعدة بيانات تضم 106 مشاريع ابتكارية مدعومة بالذكاء الاصطناعي عبر قطاعات الطاقة والنقل والصحة والبيئة وغيرها، مع درجات أثر وابتكار وحوكمة.",
+    "description_en": "106 AI-powered innovation projects across energy, mobility, health, environment and more — scored for impact, innovation and governance.",
+    "categories": [
+      "AI",
+      "Innovation",
+      "Business"
+    ],
+    "records": 106,
+    "format": "JSON",
+    "source": "UAE Innovation Catalogue (curated)",
+    "license": "CC BY 4.0",
+    "confidence": 0.8,
+    "updated": "2026-06-12",
+    "endpoint": "/api/v1/projects",
+    "fields": [
+      "name",
+      "mission",
+      "sector",
+      "tech_stack",
+      "ai_opportunities",
+      "impact_score",
+      "innovation_score",
+      "sustainability_score"
+    ]
+  },
+  {
+    "id": "free-zones",
+    "title_ar": "المناطق الحرة في الإمارات",
+    "title_en": "UAE Free Zones",
+    "description_ar": "36 منطقة حرة عبر الإمارات السبع مع التكاليف التأشيرية والقطاعات المدعومة وسنة التأسيس ودرجات الثقة.",
+    "description_en": "36 free zones across all seven emirates with costs, visa allowances, supported sectors and confidence scores.",
+    "categories": [
+      "Business",
+      "SME",
+      "Real Estate"
+    ],
+    "records": 36,
+    "format": "JSON",
+    "source": "u.ae / zone authorities",
+    "license": "CC BY 4.0",
+    "confidence": 0.7,
+    "updated": "2026-06-11",
+    "endpoint": "/api/v1/free-zones",
+    "fields": [
+      "name_en",
+      "name_ar",
+      "emirate",
+      "cost_band",
+      "indicative_min_first_year_aed",
+      "visas_with_base_package",
+      "sectors"
+    ]
+  },
+  {
+    "id": "macro-indicators",
+    "title_ar": "المؤشرات الاقتصادية الكلية",
+    "title_en": "Macro Economic Indicators",
+    "description_ar": "مؤشرات اقتصادية كلية للإمارات (الناتج المحلي، السكان، الاستثمار الأجنبي، حصة القطاعات غير النفطية) مع المصدر والسنة.",
+    "description_en": "UAE macro indicators (GDP, population, FDI, non-oil share) with source and vintage labelling.",
+    "categories": [
+      "Business",
+      "Economy"
+    ],
+    "records": 12,
+    "format": "JSON",
+    "source": "IMF / UNCTAD / Ministry of Economy",
+    "license": "CC BY 4.0",
+    "confidence": 0.75,
+    "updated": "2026-06-11",
+    "endpoint": "/api/v1/stats",
+    "fields": [
+      "key",
+      "value",
+      "label_en",
+      "label_ar",
+      "source",
+      "year"
+    ]
+  },
+  {
+    "id": "ai-skills",
+    "title_ar": "تصنيف مهارات الذكاء الاصطناعي",
+    "title_en": "AI Skills Taxonomy",
+    "description_ar": "تصنيف لمهارات الذكاء الاصطناعي مع الفئة والمستوى وأمثلة استخدام للشركات الصغيرة والمتوسطة.",
+    "description_en": "AI skills taxonomy with category, level and SME use-case examples.",
+    "categories": [
+      "AI",
+      "SME",
+      "Education"
+    ],
+    "records": 10,
+    "format": "CSV/JSON",
+    "source": "UAE AI Skills & SME Observatory",
+    "license": "CC BY 4.0",
+    "confidence": 0.7,
+    "updated": "2026-06-11",
+    "endpoint": "/api/v1/skills",
+    "fields": [
+      "skill_id",
+      "skill_en",
+      "skill_ar",
+      "category",
+      "level",
+      "example_use_case"
+    ]
+  },
+  {
+    "id": "ai-observatory",
+    "title_ar": "مرصد تبني الذكاء الاصطناعي",
+    "title_en": "AI Adoption Observatory",
+    "description_ar": "لقطة مؤشرات تبني الذكاء الاصطناعي حسب الوظيفة والطلب على المهارات ومؤشرات الاقتصاد الرقمي.",
+    "description_en": "AI adoption snapshot by business function, skills demand and digital-economy indicators.",
+    "categories": [
+      "AI",
+      "SME"
+    ],
+    "records": 13,
+    "format": "JSON",
+    "source": "UAE AI Skills & SME Observatory",
+    "license": "CC BY 4.0",
+    "confidence": 0.6,
+    "updated": "2026-06-11",
+    "endpoint": "/api/v1/observatory",
+    "fields": [
+      "kpis",
+      "adoption_by_function",
+      "skills_demand",
+      "indicators"
+    ]
+  },
+  {
+    "id": "culture-heritage",
+    "title_ar": "التراث والثقافة الإماراتية",
+    "title_en": "UAE Culture & Heritage",
+    "description_ar": "مجموعة منسقة من عناصر التراث الإماراتي عبر ستة محاور: طرق التجارة، المواسم، الحكايات، الثقافة، اللهجة، والمواقع التراثية.",
+    "description_en": "Curated UAE heritage collection across six themes: trade routes, seasons, stories, culture, dialect and heritage sites.",
+    "categories": [
+      "Culture",
+      "Heritage",
+      "Tourism"
+    ],
+    "records": 28,
+    "format": "JSON",
+    "source": "UNESCO ICH / DCT / curated",
+    "license": "CC BY 4.0",
+    "confidence": 0.82,
+    "updated": "2026-06-12",
+    "endpoint": "/api/v1/culture",
+    "fields": [
+      "theme",
+      "title_ar",
+      "title_en",
+      "summary_ar",
+      "era",
+      "lat",
+      "lng",
+      "tags",
+      "source",
+      "confidence"
+    ]
+  }
+]
