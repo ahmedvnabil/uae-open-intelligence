@@ -171,6 +171,7 @@ export function layout(o: LayoutOpts): string {
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Tajawal:wght@400;500;700&display=swap"><style>.reveal{opacity:1!important;transform:none!important}</style></noscript>
   ${leafletCss}
   ${o.head ?? ''}
+  <script defer src="https://um.zad.tools/script.js" data-website-id="35c182e9-b4bf-456f-a416-7d8f583d77ce"></script>
 </head>
 <body class="${isPublic ? 'public' : ''}">
   ${inner}
