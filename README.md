@@ -19,6 +19,17 @@
 
 </div>
 
+
+## Application preview
+
+![Actual application interface](docs/media/readme-preview.png)
+
+![Tour of actual application screens](docs/media/readme-tour.gif)
+
+Landing and dashboard from the existing application screenshots. Dataset dates and numbers belong to the captured snapshot; they are not current UAE statistics. This GIF is a screenshot tour.
+
+[Media provenance](docs/media/README.md)
+
 ## 📸 Screenshots
 
 | Landing | Dashboard | Knowledge Graph |
