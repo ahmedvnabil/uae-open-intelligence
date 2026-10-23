@@ -12,7 +12,7 @@
 ![version](https://img.shields.io/badge/version-0.1.0-00d68f)
 ![code](https://img.shields.io/badge/code-MIT-4cc2ff)
 ![data](https://img.shields.io/badge/data-CC%20BY%204.0-f5c451)
-![node](https://img.shields.io/badge/node-%E2%89%A520-339933?logo=nodedotjs&logoColor=white)
+![node](https://img.shields.io/badge/node-%E2%89%A524-339933?logo=nodedotjs&logoColor=white)
 ![stack](https://img.shields.io/badge/stack-Hono%20·%20TS%20·%20SQLite-9d8bff)
 ![lang](https://img.shields.io/badge/Arabic--first-RTL-00b377)
 ![PRs](https://img.shields.io/badge/PRs-welcome-00d68f)
@@ -33,7 +33,7 @@
 
 ## ✨ ماذا تقدّم المنصة؟ / What it does
 
-A single, production-grade observatory unifying five UAE open-data domains into one operational, bilingual (RTL-native) intelligence surface:
+A self-hosted observatory unifying five UAE open-data domains into one operational, bilingual (RTL-native) intelligence surface:
 
 | Domain | المحور | Records | Page |
 |---|---|---|---|
@@ -60,7 +60,7 @@ npm start            # start server
 
 **Docker:** `docker build -t uae-oi . && docker run -p 3000:3000 uae-oi` (builds the DB from the export at image-build time).
 
-Requirements: **Node ≥ 20** (uses the built-in `node:sqlite`; **Node ≥ 22.5** recommended). No compiler / native build needed.
+Requirements: **Node ≥ 24** (uses the built-in `node:sqlite`). No compiler / native build needed.
 
 ### Scripts
 | Script | Purpose |
