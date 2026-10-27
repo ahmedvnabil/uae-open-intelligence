@@ -1,7 +1,7 @@
 {
   "name": "uae-open-intelligence",
-  "version": "0.1.0",
-  "description": "UAE Open Intelligence Platform — Arabic-first data observatory, analytics & API hub for UAE open data.",
+  "version": "0.1.1",
+  "description": "UAE Open Intelligence Platform \u2014 Arabic-first data observatory, analytics & API hub for UAE open data.",
   "type": "module",
   "license": "MIT",
   "engines": {
