@@ -18,7 +18,7 @@
     "test": "tsx scripts/smoke.ts"
   },
   "dependencies": {
-    "@hono/node-server": "^1.19.15",
+    "@hono/node-server": "^2.1.5",
     "hono": "^4.13.13",
     "tsx": "^4.23.15"
   },
