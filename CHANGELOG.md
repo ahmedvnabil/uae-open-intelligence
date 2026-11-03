@@ -3,6 +3,11 @@
 All notable changes to this project are documented here. Format based on
 [Keep a Changelog](https://keepachangelog.com/); versioning is semantic.
 
+## [Unreleased]
+
+### Changed
+- Dependencies: bump `hono` 4.13.13 → 4.13.14 and `@types/node` 26.6.5 → 26.6.6 (npm-minor-and-patch group). Lockfile verified with `npm ci`; typecheck and smoke test (33 checks) pass.
+
 ## [0.1.0] — 2026-06-15 — Public preview
 
 ### Added (polish sprint)
